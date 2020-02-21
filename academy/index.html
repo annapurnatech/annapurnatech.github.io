@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Academy | Annapurna</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        h1{
+            font-size: 3rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h2{
+            font-size: 2.5rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h3{
+            font-size: 2rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h4{
+            font-size: 1.5rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h5{
+            font-size: 1.25rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h6{
+            font-size: 1rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        iframe{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    <img src="/logo.png" height="28">
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/academy">
+                        Academy
+                    </a>
+                    <a class="navbar-item" href="/products">
+                        Products
+                    </a>
+                    <a class="navbar-item" href="/services">
+                        Services
+                    </a>
+                    <a class="navbar-item" href="/contact">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    
+<section class="section">
+<div class="container">
+    <h6 class="title is-6">Academy</h6>
+    <p>
+        <p>We are affordable
+<br>
+<br>
+Android Development, PHP, NodeJS, Kotlin, Java, FrontEnd(HTML, CSS, ReactJS) classes in Nepalgunj. We are located in Nepalgunj’s heart Karkando, Surkhet Road. We are running classes in affordable price. Special scholarships for deserving students. We also offer placements for the best.</p>
+
+<table class="table is-bordered">
+<tr>
+    <th>Course</th>
+    <th>Duration</th>
+</tr>
+<tr>
+    <td>Android development + kotlin programming language</td>
+    <td>3 Month</td>
+</tr>
+<tr>
+    <td>html + css + nodejs + reactjs</td>
+    <td>3 Month</td>
+</tr>
+<tr>
+    <td>html + css + js + php</td>
+    <td>3 Month</td>
+</tr>
+</table>
+
+    </p>
+</div>
+</section>
+
+    <footer class="footer">
+    <div class="container">
+        <p>
+            Follow Us:
+            <a href="https://www.facebook.com/WeAnnapurna"><i class="fab fa-facebook" style="font-size: 24px;"></i></a> 
+            <a href="https://www.twitter.com/WeAnnapurna"><i class="fab fa-twitter-square" style="font-size: 24px;"></i></a>
+            <a href="https://github.com/annapurnatech"><i class="fab fa-github-square" style="font-size: 24px;"></i></a>
+            
+        </p>
+    </div>
+</footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+
+if ($navbarBurgers.length > 0) {
+
+  
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+
+});
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</body>
+</html>

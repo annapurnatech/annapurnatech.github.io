@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact | Annapurna</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        h1{
+            font-size: 3rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h2{
+            font-size: 2.5rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h3{
+            font-size: 2rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h4{
+            font-size: 1.5rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h5{
+            font-size: 1.25rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        h6{
+            font-size: 1rem;
+            color: #363636;
+            font-weight: 600;
+        }
+        iframe{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    <img src="/logo.png" height="28">
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/academy">
+                        Academy
+                    </a>
+                    <a class="navbar-item" href="/products">
+                        Products
+                    </a>
+                    <a class="navbar-item" href="/services">
+                        Services
+                    </a>
+                    <a class="navbar-item" href="/contact">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    
+<section class="section">
+<div class="container">
+    <h6 class="title is-6">Contact</h6>
+    <p>
+        <div class="columns">
+    <div class="column">
+        <div>Karkando 18, Nepalgunj</div>
+        <div><a href="tel:+977-9822507539">Call Now (+977-9822507539)</a></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.1023762346033!2d81.63208382918214!3d28.07304918223683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDA0JzIzLjAiTiA4McKwMzcnNTcuNSJF!5e0!3m2!1sen!2snp!4v1582252968582!5m2!1sen!2snp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <div class="column">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfXhdQbp1apDdMK6J9eQ5YlkFrZqe8TfT6-_KlaqG9Z9iKRVg/viewform?embedded=true" width="700" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+</div>
+
+    </p>
+</div>
+</section>
+
+    <footer class="footer">
+    <div class="container">
+        <p>
+            Follow Us:
+            <a href="https://www.facebook.com/WeAnnapurna"><i class="fab fa-facebook" style="font-size: 24px;"></i></a> 
+            <a href="https://www.twitter.com/WeAnnapurna"><i class="fab fa-twitter-square" style="font-size: 24px;"></i></a>
+            <a href="https://github.com/annapurnatech"><i class="fab fa-github-square" style="font-size: 24px;"></i></a>
+            
+        </p>
+    </div>
+</footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+
+if ($navbarBurgers.length > 0) {
+
+  
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+
+});
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</body>
+</html>
